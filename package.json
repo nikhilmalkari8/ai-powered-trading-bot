@@ -1,0 +1,19 @@
+{
+  "name": "ai-powered-trading-bot",
+  "version": "1.0.0",
+  "description": "A decentralized AI-powered trading bot using ORA's AI Oracle on Base.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.js --network base"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "ethers": "^6.13.4",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.20.0"
+  },
+  "dependencies": {},
+  "license": "MIT"
+}
